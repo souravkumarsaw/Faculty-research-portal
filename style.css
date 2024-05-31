@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  color: white;
+
+}
+
+/* .main{
+  overflow-x: scroll;
+} */
+
+/* .dept{
+  position:absolute;
+  width: 20%;
+  height: 400%;
+  left: 0;
+  background: rgb(37, 32, 32);
+  border: 1px solid;
+ 
+} */
+
+
+
+.dept {
+ 
+   position: fixed ;
+  width: 20%;
+  height: 100%;
+  left: 0;
+  background: rgb(37, 32, 32);
+  border: 1px solid;
+  overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/* .deptr{
+  position: fixed;
+  overflow-y:scroll;
+    overflow-x:hidden;
+} */
+.dept .deptr {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: rgb(37, 32, 32);
+  letter-spacing: 1px;
+
+}
+
+nav ul {
+  background: rgb(37, 32, 32);
+  height: 100;
+
+}
+
+nav ul li {
+  line-height: 40px;
+  border: 1px solid rgb(93, 91, 91);
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+
+
+}
+
+nav ul li a:hover {
+
+  color: aqua;
+  background: rgb(37, 32, 32);
+  border-left-color: aqua;
+}
+
+nav ul ul {
+  /* position: scroll;  */
+  display: none;
+
+}
+
+/* nav ul .engibutton.show{
+    display: block;
+
+}
+nav ul .managbutton.show1{
+    display: block;
+
+} */
+nav ul ul li {
+  padding-left: 40px;
+
+}
+
+ul ul li a {
+  font-size: 14px;
+  padding-left: 20px;
+
+
+}
+
+.researchportal {
+
+  
+  padding-left: 20%;
+  font-size: 40px;
+  height: 66px;
+  text-align: center;
+  border: 1px solid white;
+  background-color: rgb(37, 32, 32);
+  color: white;
+
+
+}
+
+.logo {
+  height: 60px;
+  padding-top: 4px;
+  float: right;
+  padding-left: 4px;
+  padding-right: 4px;
+
+
+}
+
+.centrephoto {
+  float: right;
+  height: 400px;
+  width: 80%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+* {
+  box-sizing: border-box
+}
+
+
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  /* margin: auto; */
+}
+
+
+.Containers {
+  display: none;
+}
+
+
+.Back,
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+
+.Back:hover,
+.forward:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.Info {
+  color: #e3e3e3;
+  font-size: 16px;
+  padding: 10px 14px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+  background-color: #717161;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 2
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 2
+  }
+}
+
+.crausel {
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 21%;
+  width: 100%;
+  height: 460px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+
+
+}
+
+/* #frp{
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+} */
+
+.content {
+  
+  padding-left: 21%;
+  height: 400px;
+  width: 100%;
+  
+  text-align: justify;
+  
+}
+
+
+.content h2{
+  color: rgb(214, 70, 70);
+  border: 1px black;
+  width: 100%;
+
+}
+
+.content h3{
+  color: gray;
+  
+}
+.content p{
+  color: black;
+  width: 70%;
+}
+.directorphoto{
+float: right;
+height: 150px;
+width: 150px;
+padding-top: 20px;
+background-color: red;
+padding-right: 80px;
+border-radius: 50px;
+}
+
+.content img{
+  float: right;
+  /* width: 100%; */
+}
+
+/* .directorimg{
+  float: right;
+
+
+} */
